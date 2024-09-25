@@ -1,0 +1,37 @@
+/* 404 Page Styles */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.paper {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.paper h1 {
+  font-size: 6em;
+  margin-bottom: 20px;
+}
+
+.paper p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.paper a.btn {
+  background: #8b53f4;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.paper a.btn:hover {
+  background: #6a3bb3;
+}
