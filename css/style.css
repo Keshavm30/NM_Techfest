@@ -108,7 +108,7 @@ h6 {
   padding-bottom: 20px;
 }
 
-.section-header::before {
+/* .section-header::before {
   content: '';
   position: absolute;
   display: block;
@@ -117,7 +117,7 @@ h6 {
   background: #8b53f4;
   bottom: 0;
   left: calc(50% - 25px);
-}
+} */
 
 .section-header h2 {
   font-size: 36px;
@@ -917,7 +917,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #venue .venue-info:before {
   content: "";
-  background: rgba(13, 20, 41, 0.8);
+  background: rgba(13, 20, 41, 0.637);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1024,7 +1024,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
 }
 
-#gallery .owl-nav,
+/* #gallery .owl-nav,
 #gallery .owl-dots {
   margin-top: 25px;
   text-align: center;
@@ -1053,13 +1053,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #gallery .gallery-carousel .center {
-  border: 6px solid #8b53f4;
+  border: 3px solid #8b53f4;
   margin: -10px;
   box-sizing: content-box;
   padding: 4px;
   background: #fff;
   z-index: 1;
-}
+} */
 
 /*--------------------------------------------------------------
 # supporters Section
