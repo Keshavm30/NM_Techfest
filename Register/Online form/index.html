@@ -8,23 +8,14 @@
     <link rel="stylesheet" href="https://keshavm30.github.io/NM_Techfest/css/Form-styles.css">
 </head>
 <body>
-	<div class="container py-5">
-		<div class="row">
-			<div class="col-lg-5 col-md-8 mx-auto shadow border bg-white p-4 rounded">
-				<nav class="navbar navbar-dark bg-primary">
-					<a class="navbar-brand" href="#" fw-bold mb-3>File Upload Form</a>
-				</nav>
-				<br>
+  <div class="form-container">
 				<form id="myForm" onsubmit="handleFormSubmit()">
 					<div id="form_alerts"></div>
-					<div class="form-group mb-3">
-						<label for="nama" class="form-label">Student Name</label>
-						<input type="text" id="nama" name="nama" class="form-control" placeholder="Enter student name" required>
-            </div>
+						<label for="Name" class="form-label">Student Name</label>
+						<input type="text" id="Name" name="Name" class="form-control" placeholder="Enter student name" required>
 
-            <div class="form-group mb-3">
-            <label for="kelas" class="form-label">Class</label>
-						<select type="text" id="kelas" name="kelas" class="form-control" required>
+            <label for="class" class="form-label">Class</label>
+						<select type="text" id="class" name="class" class="form-control" required>
               <option>---Select Class---</option>
               <option>X Science 1</option>
               <option>X Science 2</option>
@@ -32,11 +23,10 @@
               <option>X Commerce 2</option>
               <option>X Commerce 3</option>
 						</select>
-            </div>
 
             <div class="form-group mb-3">
-            <label for="subjek" class="form-label">Subject</label>
-						<select type="text" id="subjek" name="subjek" class="form-control" required>
+            <label for="subject" class="form-label">Subject</label>
+						<select type="text" id="subject" name="subject" class="form-control" required>
             <option>---Select Subject---</option>
             <option>English Language</option>
             <option>English Literature</option>
@@ -51,9 +41,7 @@
 						</div>
 					</div>
 				</form>
-			</div>
-		</div>
-	</div>
+      </div>
 	<script>
 		function preventFormSubmit() {
                 var forms = document.querySelectorAll('form');
