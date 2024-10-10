@@ -655,7 +655,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #about {
-  background: url("../img/about-bg.jpg");
+  background: url("../img/IMG_0771.JPG");
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -1167,6 +1167,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # supporters Section
 --------------------------------------------------------------*/
+#gallery .owl-item {
+  padding: 0px;
+  clip-path: circle(45%);
+  overflow: hidden; /* In case the content spills out of the circle */
+}
 
 #supporters {
   padding: 60px 0;
