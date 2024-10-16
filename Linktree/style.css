@@ -90,3 +90,64 @@ img[alt="Linktree photo"] + h3 {
 
 
 
+
+body {
+  background-color: #ffffff; /* Set background to white */
+}
+
+.social-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px; /* Added padding for better spacing */
+}
+
+.social-icon {
+  font-size: 24px;
+  color: #000; /* Set icon color to black */
+  background-color: #ffffff; /* Set button background to white */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow */
+  text-decoration: none; /* Remove underline */
+}
+
+.social-icon:hover {
+  transform: scale(1.1); /* Hover effect for scaling */
+}
+
+/* Individual icon hover background colors */
+.linkedin:hover {
+  background-color: #0077b5; /* LinkedIn hover background */
+  color: #ffffff; /* Change icon color to white on hover */
+}
+
+.youtube:hover {
+  background-color: #ff0000; /* YouTube hover background */
+  color: #ffffff; /* Change icon color to white on hover */
+}
+
+.instagram:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  color: #ffffff; /* Change icon color to white on hover */
+}
+
+.email:hover {
+  background-color: #ea4335; /* Email hover background */
+  color: #ffffff; /* Change icon color to white on hover */
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .social-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+}
